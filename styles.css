@@ -1,0 +1,138 @@
+body{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+	background-color: #0f0f0ffa;
+}
+*{
+	
+	font-family: monospace;
+}
+#FenInDiv {
+	left: 60px;
+}
+
+#fenIn { 
+ width: 480px;
+ left: 60px;
+}
+
+#Board {
+	position: relative;
+	top: 20px;
+	left: 0px;
+	width: 480px;
+	height: 480px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#EngineOutput {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Square {
+	position: absolute;	
+	width: 60px;
+	height: 60px;
+}
+
+.Dark {
+	background-color:#a36735;
+}
+
+.Light {
+	background-color:#f5c299;
+}
+.SqSelected{
+	background-color:#6b4007;
+}
+.SqSelected:hover {
+	background-color:#e9c89d;
+}
+
+.rank1 { top: 420px; }
+.rank2 { top: 360px; }
+.rank3 { top: 300px; }
+.rank4 { top: 240px; }
+.rank5 { top: 180px; }
+.rank6 { top: 120px; }
+.rank7 { top: 60px; }
+.rank8 { top: 0px; }
+
+.file1 { left: 0px; }
+.file2 { left: 60px; }
+.file3 { left: 120px; }
+.file4 { left: 180px; }
+.file5 { left: 240px; }
+.file6 { left: 300px; }
+.file7 { left: 360px; }
+.file8 { left: 420px; }
+
+.Piece {
+	position: absolute;
+}
+
+select{
+	outline: none;
+	font-size: 14px;
+	width: 300px;
+	padding: 8px 15px;
+	text-align: center;
+	font-weight: bolder;
+	border-radius: 3px;
+	border: 1px solid saddlebrown;
+	margin: 0 auto;
+}
+#EngineOutput{
+	color: aliceblue;
+	margin-top: 5px;
+}
+
+span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
